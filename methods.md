@@ -1,11 +1,11 @@
 # Defining Methods
 
-Methods allow you to smoothly display code examples in different languages.
+介紹這個方法做甚麼用的
 
 {% method %}
-## My first method
+## 方法
 
-My first method exposes how to print a message in JavaScript and Go.
+第一種方法
 
 {% sample lang="js" %}
 Here is how to print a message to `stdout` using JavaScript.
@@ -14,7 +14,7 @@ Here is how to print a message to `stdout` using JavaScript.
 console.log('My first method');
 ```
 
-{% sample lang="go" %}
+{% sample lang="c++" %}
 Here is how to print a message to `stdout` using Go.
 
 ```go
