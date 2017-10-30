@@ -34,6 +34,11 @@ $ My first method
 {% endmethod %}
 
 {% method %}
+## 方法二
+
+第二種方法，只是個測試用區塊
+詳情編寫的語法可參考中國人的筆記([Link](https://gitbook.zhangjikai.com/themes.html))
+
 
 
 {% endmethod %}
