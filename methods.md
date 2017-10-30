@@ -1,4 +1,4 @@
-# Defining Methods
+# 各種範例
 
 介紹這個方法做甚麼用的
 
