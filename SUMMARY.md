@@ -6,5 +6,5 @@
 
 ## Methods
 
-* [Defining Methods](methods.md)
+* [Examples](methods.md)
 
