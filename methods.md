@@ -9,14 +9,13 @@
 使用簡單例預設顯示在右側欄位
 
 {% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
+如何用JavaScript印出`stdout`
 ```js
 console.log('My first method');
 ```
 
-{% sample lang="c/c++" %}
-Here is how to print a message to `stdout` using C/C++.
-
+{% sample lang="ccc" %}
+如何用C/C++印出`stdout`
 ```c
 printf("My first method");
 ```
