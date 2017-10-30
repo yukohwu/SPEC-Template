@@ -19,6 +19,7 @@ Here is how to print a message to `stdout` using C/C++.
 
 ```c
 printf("My first method")
+cout << "My first method";
 ```
 
 {% common %}
