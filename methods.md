@@ -18,7 +18,7 @@ console.log('My first method');
 Here is how to print a message to `stdout` using C++.
 
 ```c++
-fmt.Println("My first method")
+printf("My first method")
 ```
 
 {% common %}
