@@ -25,7 +25,25 @@
   * output
 * 如有另外繪製圖說，佳
 
+# Supplementary Materials
 
+| References |  |
+| :--- | :--- |
+| reference title | link |
 
+| Used Standards |  |
+| :--- | :--- |
+| standard name | link |
 
+| Related Modules |  |
+| :--- | :--- |
+| module name | link |
+
+| Related Daemons |  |
+| :--- | :--- |
+| daemon name | link |
+
+|  |  |
+| :--- | :--- |
+|  |  |
 
