@@ -49,7 +49,7 @@
 
 | SPEC List | Remarks |  |
 | :--- | :--- | :--- |
-| SPEC\#/name | 註記參考到的SPEC | link |
+| SPEC\#/name | 註記參考到的SPEC、子SPEC | link |
 
 
 
