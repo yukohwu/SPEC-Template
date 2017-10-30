@@ -21,8 +21,8 @@
 
 * 清楚敘述控制流程，描述中需對以下項目有清楚的定義與參照：
   * input
-  * process
   * output
+  * process
 * 如有另外繪製圖說，佳
 
 # References
