@@ -17,7 +17,7 @@ console.log('My first method');
 {% sample lang="c" %}
 Here is how to print a message to `stdout` using C.
 
-```c++
+```c
 printf("My first method")
 ```
 
