@@ -18,12 +18,15 @@ console.log('My first method');
 Here is how to print a message to `stdout` using C/C++.
 
 ```c
-printf("My first method")
+printf("My first method");
+```
+or another way, 
+```
 cout << "My first method";
 ```
 
 {% common %}
-Whatever language you are using, the result will be the same.
+無論使用何種方法結果都一樣：
 
 ```bash
 $ My first method
