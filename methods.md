@@ -15,7 +15,7 @@ console.log('My first method');
 ```
 
 {% sample lang="c++" %}
-Here is how to print a message to `stdout` using Go.
+Here is how to print a message to `stdout` using C++.
 
 ```go
 fmt.Println("My first method")
