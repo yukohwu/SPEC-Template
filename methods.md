@@ -1,9 +1,9 @@
-# 各種範例
+# 情境範例
 
 介紹這個方法做甚麼用的
 
 {% method %}
-## 方法一
+## 範例一
 
 第一種方法，展示如何印出stdout
 
@@ -21,7 +21,7 @@ console.log('My first method');
 printf("My first method");
 ```
 or another way, 
-```
+```c
 cout << "My first method";
 ```
 
@@ -34,7 +34,7 @@ $ My first method
 {% endmethod %}
 
 {% method %}
-## 方法二
+## 範例二
 
 第二種方法，只是個測試用區塊
 詳情編寫的語法可參考中國人的筆記([Link](https://gitbook.zhangjikai.com/themes.html))
