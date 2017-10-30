@@ -6,10 +6,10 @@
 ## 方法一
 
 第一種方法，展示如何印出stdout
+使用簡單例預設顯示在右側欄位
 
 {% sample lang="js" %}
 Here is how to print a message to `stdout` using JavaScript.
-
 ```js
 console.log('My first method');
 ```
