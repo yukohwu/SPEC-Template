@@ -5,7 +5,7 @@
 {% method %}
 ## 方法一
 
-第一種方法
+第一種方法，展示如何印出stdout
 
 {% sample lang="js" %}
 Here is how to print a message to `stdout` using JavaScript.
@@ -32,3 +32,9 @@ cout << "My first method";
 $ My first method
 ```
 {% endmethod %}
+
+{% method %}
+
+
+{% endmethod %}
+
