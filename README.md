@@ -23,6 +23,7 @@
   * input
   * output
   * process
+* 如有多種input要求與output要求，分開描述
 * 如有另外繪製圖說，佳
 
 # References
