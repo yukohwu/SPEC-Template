@@ -27,29 +27,29 @@
 
 # References
 
-| Supplementary materials \(相關補充資料\) |  |  |
+| Supplementary materials \(相關補充資料\) | Remarks |  |
 | :--- | :--- | :--- |
-| title |  | link |
+| title | 註記是此SPEC的產物、抑或是實作時參考時用的 | link |
 
-| Used Standards \(使用到的相關標準\) |  |  |
+| Used Standards \(使用到的相關標準\) | Remarks |  |
 | :--- | :--- | :--- |
-| standard name |  | link |
+| standard name | 註記是此SPEC的產物、抑或是實作時參考時用的 | link |
 
-| Related Modules \(此SPEC涉及的模組\) |  |  |
+| Related Modules \(此SPEC涉及的模組\) | Remarks |  |
 | :--- | :--- | :--- |
-| module name |  | link |
+| module name | 註記是此SPEC的產物、抑或是實作時參考時用的 | link |
 
-| Related Daemons \(此SPEC涉及的daemon\) |  |  |
+| Related Daemons \(此SPEC涉及的daemon\) | Remarks |  |
 | :--- | :--- | :--- |
-| daemon name |  | link |
+| daemon name | 註記是此SPEC的產物、抑或是實作時參考時用的 | link |
 
-| API List\(此SPEC涉及的API\) |  |  |
+| API List\(此SPEC涉及的API\) | Remarks |  |
 | :--- | :--- | :--- |
-| API name |  | link |
+| API name | 註記是此SPEC的產物、抑或是實作時參考時用的 | link |
 
-| SPEC List |  |  |
+| SPEC List | Remarks |  |
 | :--- | :--- | :--- |
-|  |  |  |
+| SPEC\#/name |  | link |
 
 
 
