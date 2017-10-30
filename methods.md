@@ -14,8 +14,8 @@ Here is how to print a message to `stdout` using JavaScript.
 console.log('My first method');
 ```
 
-{% sample lang="c" %}
-Here is how to print a message to `stdout` using C.
+{% sample lang="c/c++" %}
+Here is how to print a message to `stdout` using C/C++.
 
 ```c
 printf("My first method")
