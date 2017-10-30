@@ -25,25 +25,31 @@
   * output
 * 如有另外繪製圖說，佳
 
-# Supplementary Materials
+# References
 
-| References |  |
-| :--- | :--- |
-| reference title | link |
+| Supplementary materials \(相關補充資料\) |  |  |
+| :--- | :--- | :--- |
+| title |  | link |
 
-| Used Standards |  |
-| :--- | :--- |
-| standard name | link |
+| Used Standards \(使用到的相關標準\) |  |  |
+| :--- | :--- | :--- |
+| standard name |  | link |
 
-| Related Modules |  |
-| :--- | :--- |
-| module name | link |
+| Related Modules \(此SPEC涉及的模組\) |  |  |
+| :--- | :--- | :--- |
+| module name |  | link |
 
-| Related Daemons |  |
-| :--- | :--- |
-| daemon name | link |
+| Related Daemons \(此SPEC涉及的daemon\) |  |  |
+| :--- | :--- | :--- |
+| daemon name |  | link |
 
-|  |  |
-| :--- | :--- |
-|  |  |
+| API List\(此SPEC涉及的API\) |  |  |
+| :--- | :--- | :--- |
+| API name |  | link |
+
+| SPEC List |  |  |
+| :--- | :--- | :--- |
+|  |  |  |
+
+
 
