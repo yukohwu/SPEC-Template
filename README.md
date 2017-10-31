@@ -28,18 +28,18 @@
 
 # References
 
-| Supplementary materials \(相關補充資料\) | Remarks \(註記是此SPEC的產物、抑或是實作時參考時用的\) | Location \(URL Link or other physical location\) |
+| **Supplementary materials \(相關補充資料\)** | **Remarks \(註記是此SPEC的產物、抑或是實作時參考時用的\)** | **Location \(URL Link or other physical location\)** |
 | :--- | :--- | :--- |
 | title |  |  |
 | **Used Standards \(使用到的相關標準\)** | - | - |
 | standard name |  |  |
-| **Related Modules \(此SPEC涉及的模組\)	** | - | - |
+| **Related Modules \(此SPEC涉及的模組\)    ** | - | - |
 | module name |  |  |
 | **Related Daemons \(此SPEC涉及的daemon\)** | - | - |
 | daemon name |  |  |
 | **API List\(此SPEC涉及的API\)** | - | - |
 | API name |  |  |
-| **SPEC List** | - | - |
+| **SPEC List \(此SPEC涉及的SPEC\)** | - | - |
 | SPEC\#/name |  |  |
 
 
