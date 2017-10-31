@@ -1,5 +1,7 @@
 # SPEC information
 
+###### SPEC的基本資訊描述
+
 | Item | Description |
 | :--- | :--- |
 | Name/ID | SPEC名稱/\# |
