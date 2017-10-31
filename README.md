@@ -33,7 +33,8 @@
 
 # References
 
-###### 應有項目列表，若無可刪除；有多項則add rows
+* ###### 應有項目列表，若無可刪除
+* ###### 有多項則add rows
 
 | **Supplementary materials \(相關補充資料\)** | **Remarks \(註記是此SPEC的產物、抑或是實作時參考時用的；與左側項目的從屬關係等資訊\)** | **Location \(URL Link or other physical location\)** |
 | :--- | :--- | :--- |
