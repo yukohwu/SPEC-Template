@@ -17,7 +17,7 @@
 console.log('My first method');
 ```
 
-{% sample lang="ccc" %}
+{% sample lang="C/C++" %}
 如何用C/C++印出`stdout`
 ```c
 printf("My first method");
@@ -28,7 +28,7 @@ cout << "My first method";
 ```
 
 {% common %}
-無論使用何種方法結果都一樣：
+螢幕輸出結果為：
 
 ```bash
 $ My first method
