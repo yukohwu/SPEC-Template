@@ -33,7 +33,7 @@
 | title |  |  |
 | **Used Standards \(使用到的相關標準\)** | - | - |
 | standard name |  |  |
-| **Related Modules \(此SPEC涉及的模組\)    ** | - | - |
+| **Related Modules \(此SPEC涉及的模組\) ** | - | - |
 | module name |  |  |
 | **Related Daemons \(此SPEC涉及的daemon\)** | - | - |
 | daemon name |  |  |
