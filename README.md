@@ -40,15 +40,15 @@
 | :--- | :--- | :--- |
 | title |  |  |
 | **Used Standards \(使用到的相關標準\)** | - | - |
-| standard name |  |  |
+| standard name |  | https://en.wikipedia.org/wiki/Representational\_state\_transfer\#Relationship\_between\_URL\_and\_HTTP\_methods |
 | **Related Modules \(此SPEC涉及的模組\) ** | - | - |
-| module name |  |  |
+| module name |  | https://hjcian.gitbooks.io/module-template/content/ |
 | **Related Daemons \(此SPEC涉及的daemon\)** | - | - |
-| daemon name |  |  |
+| daemon name |  | https://hjcian.gitbooks.io/daemon-template/content/ |
 | **API List\(此SPEC涉及的API\)** | - | - |
-| API name |  |  |
+| API name |  | https://hjcian.gitbooks.io/api-template/content/ |
 | **SPEC List \(此SPEC涉及的SPEC\)** | - | - |
-| SPEC\#/name |  |  |
+| SPEC\#/name |  | https://hjcian.gitbooks.io/spec-template/content/ |
 
 
 
