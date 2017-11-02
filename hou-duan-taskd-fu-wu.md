@@ -31,7 +31,8 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
 2. 搜尋結果要打包。
 3. 任務結束後，寄通知信給 **yukoh@cellopoint** 跟 **hank@cellopoint.com** 兩個人。
 
-假設 yukoh 這個帳號的 account id 是 3, 此時 UI 的動作就是去以下這個目錄 /usr/local/mozart/data/task\_queue/3 下開啟一個 file，/usr/local/mozart/data/task\_queue/3/0001.RETRMS。file 的內容如下：
+假設 yukoh 這個帳號的 account id 是 3, 此時 UI 的動作就是去以下這個目錄 /usr/local/mozart/data/task\_queue/3  
+ 下開啟一個 file，/usr/local/mozart/data/task\_queue/3/0001.RETRMS。file 的內容如下：
 
 ```
 {
@@ -52,9 +53,11 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
 }
 ```
 
-之後 taskd 每秒都會去處理這個 task file，並開始作業，同時也會每秒去更新作業狀態寫回這個檔案。每次更新後，檔名也會依據執行狀態而被更改。比方由 **0001.RETRMS** 變更為 **0001-ABCXYZ\_87.RETRMS**，**ABCXYZ** 是來自以下內容的 retrieve-id，**87 **是來自以下內容的progress。更改後的內容如下：
+之後 taskd 每秒都會去處理這個 task file，並開始作業，同時也會每秒去更新作業狀態寫回這個檔案。每次  
+更新後，檔名也會依據執行狀態而被更改。比方由 **0001.RETRMS** 變更為 **0001-ABCXYZ\_87.RETRMS**，**ABCXYZ** 是來自以下內容的 retrieve-id，**87 **是來自以下內容的progress  
+。更改後的內容如下：
 
-```js
+```
 {
 "type": "RETRMS",
 "description": "搜尋任務A計劃",
@@ -86,7 +89,8 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
 3. 需要打包的本地檔案清單
 4. 任務結束後，寄通知信給 **yukoh@cellopoint** 跟 **hank@cellopoint.com** 兩個人。
 
-假設 yukoh 這個帳號的 account id 是 3, 此時 UI 的動作就是去以下這個目錄 /usr/local/mozart/data/task\_queue/3 下開啟一個 file，/usr/local/mozart/data/task\_queue/3/0001.PACKMS。file 的內容如下：
+假設 yukoh 這個帳號的 account id 是 3, 此時 UI 的動作就是去以下這個目錄 /usr/local/mozart/data/task\_queue/3  
+ 下開啟一個 file，/usr/local/mozart/data/task\_queue/3/0001.PACKMS。file 的內容如下：
 
 ```
 {
@@ -99,9 +103,11 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
 }
 ```
 
-之後 taskd 每秒都會去處理這個 task file，並開始作業，同時也會每秒去更新作業狀態寫回這個檔案。每次更新後，檔名也會依據執行狀態而被更改。比方由 **0001.PACKMS** 變更為 **0001-87.PACKMS**，**87 **是來自以下內容的 progress。更改後的內容如下：
+之後 taskd 每秒都會去處理這個 task file，並開始作業，同時也會每秒去更新作業狀態寫回這個檔案。每次  
+更新後，檔名也會依據執行狀態而被更改。比方由 **0001.PACKMS** 變更為 **0001-87.PACKMS**，**87 **是來自以下內容的 progress  
+。更改後的內容如下：
 
-```js
+```
 {
     "type": "PACKMS",
     "description": "搜尋任務A計劃",
