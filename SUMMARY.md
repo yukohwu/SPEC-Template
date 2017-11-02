@@ -2,8 +2,8 @@
 
 ## Overview
 
-* [規格簡介](README.md)
-* [後端 taskd 服務](hou-duan-taskd-fu-wu.md)
+* [SPEC \#3164](README.md)
+* [SPEC \#3164 Backend](hou-duan-taskd-fu-wu.md)
 
 ## Methods
 
