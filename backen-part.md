@@ -49,18 +49,18 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
         "subject": "haha"
     },
 "pack": true,
-"notify": ["yukoh@cellopoint.com","hank@cellopoint.com"]
+"notify": ["yukoh@cellopoint.com","hank@cellopoint.com"],
 }
 ```
 
-之後 taskd 每秒都會去處理這個 task file，並開始作業，同時也會每秒去更新作業狀態寫回這個檔案。每次  
-更新後，檔名也會依據執行狀態而被更改。比方由 **0001.RETRMS** 變更為 **0001-ABCXYZ\_87.RETRMS**，**ABCXYZ** 是來自以下內容的 retrieve-id，**87 **是來自以下內容的progress  
-。更改後的內容如下：
+另外，如果要寄發通知信，把要發送的通知信用下面的檔名格式，放在同一個目錄下。taskd 完成工作後，則會將該檔案寄出並且刪除。檔名格式為：/usr/local/mozart/data/task\_queue/&lt;user-id&gt;/&lt;task-id&gt;.notify.eml。以這個例子來說，檔名為 /usr/local/mozart/data/task\_queue/3/0001.notify.eml。之後 taskd 每秒都會去處理這個 task file，並開始作業，同時也會每秒去更新作業狀態寫回這個檔案。每次更新後，檔名也會依據執行狀態而被更改。比方由 **0001.RETRMS** 變更為 **0001-ABCXYZ\_87.RETRMS**，**ABCXYZ** 是來自以下內容的 retrieve-id，**87 **是來自以下內容的progress，更改後的內容如下：
 
 ```
 {
 "type": "RETRMS",
-"description": "搜尋任務A計劃",
+"
+ 
+description": "搜尋任務A計劃",
 "criterion":
     {
         "session": "yukoh_XXX",
