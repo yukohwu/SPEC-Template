@@ -30,6 +30,7 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
 1. 搜尋條件。
 2. 搜尋結果要打包。
 3. 任務結束後，寄通知信給 **yukoh@cellopoint** 跟 **hank@cellopoint.com** 兩個人。
+4. 通知信的寄件人為 **admin@cellopoint.com**
 
 假設 yukoh 這個帳號的 account id 是 3, 此時 UI 的動作就是去以下這個目錄 /usr/local/mozart/data/task\_queue/3  
  下開啟一個 file，/usr/local/mozart/data/task\_queue/3/0001.RETRMS。file 的內容如下：
@@ -50,27 +51,21 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
     },
 "pack": true,
 "notify": ["yukoh@cellopoint.com","hank@cellopoint.com"],
+"sender": "admin@cellopoint.com"
 }
 ```
 
-另外，如果要寄發通知信，把要發送的通知信用下面的檔名格式，放在同一個目錄下。taskd 完成工作後，則會將該檔案寄出並且刪除。檔名格式為：/usr/local/mozart/data/task\_queue/&lt;user-id&gt;/&lt;task-id&gt;.notify.eml。以這個例子來說，檔名為 /usr/local/mozart/data/task\_queue/3/0001.notify.eml。之後 taskd 每秒都會去處理這個 task file，並開始作業，同時也會每秒去更新作業狀態寫回這個檔案。每次更新後，檔名也會依據執行狀態而被更改。比方由 **0001.RETRMS** 變更為 **0001-ABCXYZ\_87.RETRMS**，**ABCXYZ** 是來自以下內容的 retrieve-id，**87 **是來自以下內容的progress，更改後的內容如下：
+另外，如果要寄發通知信，把要發送的通知信用下面的檔名格式，放在同一個目錄下。taskd 完成工作後，則會將該檔案寄出並且刪除。檔名格式為：/usr/local/mozart/data/task\_queue/&lt;user-id&gt;/&lt;task-id&gt;.notify.eml。以這個例子來說，檔名為 /usr/local/mozart/data/task\_queue/3/0001.notify.eml。之後 taskd 每秒都會去處理這個 task file，並開始作業，同時也會每秒去更新作業狀態寫回這個檔案。每次更新後，檔名也會依據執行狀態而被更改。比方由 **0001.RETRMS** 變更為 **0001-ABCXYZ\_87.RETRMS**，**ABCXYZ** 是來自以下內容的 retrieve-id，**87 **是來自以下內容的progress。若有任何錯誤發生，則會放錯誤代碼，錯誤代碼從 101 起跳，也就是說 0 ~ 99 是還在執行中，100 表示處理完畢，101~ 以後就是錯誤產生。
+
+
+
+更改後的內容如下：
 
 ```
 {
 "type": "RETRMS",
-"
- 
-description": "搜尋任務A計劃",
-"criterion":
-    {
-        "session": "yukoh_XXX",
-        "group": "",
-        "user": "yukoh",
-        "label": "",  
-        "folder": "_ARCHIVE_",
-        "file": ["20171025"],
-        "subject": "haha"
-    },
+"description": "搜尋任務A計劃",
+"criterion": "<xmlrpc>...</xmlrpc>",
 "pack": true,
 "notify": ["yukoh@cellopoint.com","hank@cellopoint.com"],
 "retrieve-id": "ABCXYZ",
@@ -97,9 +92,10 @@ description": "搜尋任務A計劃",
     "type": "PACKMS",
     "description": "搜尋任務A計劃",
     "retrieve-id": "ABCXYZ",
-    "mails": ["A11111", "A22222", "A33333"],
-    "files": ["/tmp/file1.doc", "/tmp/file2.pdf"],
-    "notify": ["yukoh@cellopoint.com", "hank@cellopoint.com"]
+    "export-id": "DEFGHI",
+    "export-path": "/usr/local/mozart/data/work_space/3/XXX/",
+    "notify": ["yukoh@cellopoint.com", "hank@cellopoint.com"],
+    "sender": "admin@cellopoint.com"
 }
 ```
 
@@ -112,9 +108,10 @@ description": "搜尋任務A計劃",
     "type": "PACKMS",
     "description": "搜尋任務A計劃",
     "retrieve-id": "ABCXYZ",
-    "mails": ["A11111", "A22222", "A33333"],
-    "files": ["/tmp/file1.doc", "/tmp/file2.pdf"],
+    "export-id": "DEFGHI",
+    "export-path": "/usr/local/mozart/data/work_space/3/XXX/",
     "notify": ["yukoh@cellopoint.com","hank@cellopoint.com"],
+    "sender": "admin@cellopoint.com",
     "tmp-space": "/usr/local/mozart/data/work_space/3/XXX/",
     "output": "/usr/local/mozart/data/download/3/搜尋任務A計劃.tar.gz",
     "progress":87
