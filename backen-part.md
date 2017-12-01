@@ -41,6 +41,7 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
 "description": "搜尋任務A計劃",
 "criterion": "<xmlrpc>...</xmlrpc>",
 "pack": true,
+"output-path": "/usr/local/mozart/symphony/data/download/SuperAdmin/",
 "notify": ["yukoh@cellopoint.com","hank@cellopoint.com"],
 "sender": "admin@cellopoint.com"
 }
@@ -56,6 +57,7 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
 "description": "搜尋任務A計劃",
 "criterion": "<xmlrpc>...</xmlrpc>",
 "pack": true,
+"output-path": "/usr/local/mozart/symphony/data/download/SuperAdmin/"
 "notify": ["yukoh@cellopoint.com","hank@cellopoint.com"],
 "retrieve-id": "ABCXYZ",
 "progress":87
@@ -83,6 +85,7 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
     "retrieve-id": "ABCXYZ",
     "export-id": "DEFGHI",
     "export-path": "/usr/local/mozart/data/work_space/3/XXX/",
+    "output-path": "/usr/local/mozart/symphony/data/download/SuperAdmin/"
     "notify": ["yukoh@cellopoint.com", "hank@cellopoint.com"],
     "sender": "admin@cellopoint.com"
 }
@@ -99,6 +102,7 @@ Taskd 是一隻用來執行各種非同步任務的一隻服務。他會每秒�
     "retrieve-id": "ABCXYZ",
     "export-id": "DEFGHI",
     "export-path": "/usr/local/mozart/data/work_space/3/XXX/",
+    "output-path": "/usr/local/mozart/symphony/data/download/SuperAdmin/"
     "notify": ["yukoh@cellopoint.com","hank@cellopoint.com"],
     "sender": "admin@cellopoint.com",
     "tmp-space": "/usr/local/mozart/data/work_space/3/XXX/",
